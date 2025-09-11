@@ -3,7 +3,7 @@
 
 This project explores the use of Deep Learning models to classify emotional reactions triggered by short Hebrew news headlines, collected during the "Iron Swords" war in Israel.
 
-Project Goal
+# Project Goal
 
 To build a system that receives a short news headline in Hebrew and predicts the dominant emotional response:
 
@@ -13,7 +13,7 @@ Pain (1)
 
 Determination (2)
 
-Dataset
+# Dataset
 
 ~900 manually collected Hebrew news headlines
 
@@ -27,7 +27,7 @@ Pain: 298
 
 Determination: 308
 
-Methodology
+# Methodology
 
 The project combines Hebrew embeddings with different neural architectures:
 
@@ -37,7 +37,7 @@ Models: MLP, Bi-LSTM/GRU (RNN), Transformer (fine-tuning partial & full)
 
 Techniques used: Dropout, L2 Regularization, Batch/Layer Normalization, EarlyStopping
 
-Results
+# Results
 
 Best overall performance: MLP with AlephBERT (~80% accuracy)
 
@@ -51,7 +51,7 @@ Determination: 0.67
 
 Fear: 0.50 (most challenging to classify)
 
-Key Insights
+# Key Insights
 
 AlephBERT embeddings consistently outperformed HeBERT
 
@@ -59,7 +59,7 @@ Short headlines may not benefit significantly from complex sequence models, maki
 
 Overfitting was mitigated using Dropout (0.3–0.4) and L2 Regularization
 
-Limitations & Future Work
+# Limitations & Future Work
 
 Relatively small, manually labeled dataset (<1,000 headlines)
 
@@ -73,7 +73,7 @@ Adding more emotion categories (hope, anger, frustration, etc.)
 
 Training smaller custom Transformers for short-text tasks
 
-References
+# References
 
 HeBERT
 
