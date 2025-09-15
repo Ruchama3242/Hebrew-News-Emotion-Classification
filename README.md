@@ -1,7 +1,7 @@
 # Hebrew-News-Emotion-Classification
 
 
-This project explores the use of Deep Learning models to classify emotional reactions triggered by short Hebrew news headlines, collected in the period after 7/10/2023 in Israel.
+This project explores the use of Deep Learning models to classify emotional reactions triggered by short Hebrew news headlines, collected in the period following 7/10/2023 in Israel.
 
 # Project Goal
 
